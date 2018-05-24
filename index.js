@@ -1,1 +1,3 @@
-module.exports = require('./lib/mnemonic');
+module.exports = function(bitcore) {
+    return require('./lib/mnemonic')(bitcore);
+}
