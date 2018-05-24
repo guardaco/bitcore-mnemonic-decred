@@ -38,7 +38,7 @@
     "mocha": "^2.2.5"
   },
   "dependencies": {
-    "bitcore-lib": "^0.13.7",
+    "bitcore-lib-decred": "git+https://github.com/dintores/bitcore-lib-decred.git#master-new",
     "unorm": "^1.3.3"
   }
 }
